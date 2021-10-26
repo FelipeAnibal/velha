@@ -1,0 +1,28 @@
+.squares{
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(82, 119, 187);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#a1, #a2, #a3{
+    border-top: none;
+}
+
+#a1, #b1, #c1{
+    border-left: none;
+}
+
+#c1, #c2, #c3{
+    border-bottom: none;
+}
+
+#a3, #b3, #c3{
+    border-right: none;
+}
